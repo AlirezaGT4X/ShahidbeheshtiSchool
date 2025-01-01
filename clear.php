@@ -15,7 +15,7 @@ $conn->set_charset("utf8");
 
 if (isset($_GET['password'])) {
     $password = $_GET['password'];
-    $correct_password = "1051602408";
+    $correct_password = "1051620244";
 
     if ($password === $correct_password) {
         $tables = ["class701_absences", "class702_absences", "class801_absences", "class802_absences", "class901_absences", "class902_absences"];
